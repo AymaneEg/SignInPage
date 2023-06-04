@@ -25,7 +25,7 @@
 
 .SigInBody{
   padding: 20px 10px;
-  width: 25%;
+  min-width: 25%;
   height: 50vh;
   position: absolute;
   top: 50%;
@@ -51,6 +51,7 @@
   margin-top: 25px;
  list-style-type: none;
 }
+
 
 .TextFeild{
   width: 80%;
@@ -367,3 +368,13 @@ list-style: none;
   height: 4.8vh;
 } 
 
+
+
+@media all and (max-width : 1200px) {
+  
+  .SigInBody , .RegisterBody , .Recover{
+    width: 80%;
+  
+  }
+  
+}
